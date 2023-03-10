@@ -19,7 +19,7 @@ def bubble_sort(integer_array)
 		end
 	end
   	if no_changes == 1
-    output = bubble_sort(output[0..output.length-1])
+    output = bubble_sort(output)
   	end
 	return output
 end
